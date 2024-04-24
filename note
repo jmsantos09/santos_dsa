@@ -1,0 +1,16 @@
+CREATE DATABASE ERD Apparel;
+
+USE ERD APParel;
+
+CREATE TABLE Customer(
+	cust_id INT PRIMARY KEY AUTO_INCREMENT,
+	cust_name VARCHAR(255),
+	cust_address VARCHAR(255),
+	cust_email VARCHAR(255),
+	cust_phone VARCHAR(255)
+);
+ 
+CREATE TABLE Product(
+	prod_code INT PRIMARY KEY AUTO_INCREMENT,
+	prod_desc VARCHAR(255)
+);
